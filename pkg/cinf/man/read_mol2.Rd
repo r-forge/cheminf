@@ -14,5 +14,7 @@ read_mol2(filename)
 \value{Molecular database (mdb) list}
 \examples{
 ## Load mol2 file
-\dontrun{mdb <- read_mol2("fname.mol2")}
+\dontrun{
+mdb <- read_mol2("fname.mol2")
+}
 }
