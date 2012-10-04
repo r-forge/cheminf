@@ -11,8 +11,8 @@ read_mol2(filename)
 \arguments{
 	\item{filename}{the name of the mol2 file to load}
 }
+\value{Molecular database (mdb) list}
 \examples{
 ## Load mol2 file
-mdb <- read_mol2("fname.mol2")
+\dontrun{mdb <- read_mol2("fname.mol2")}
 }
-\keyword{file}
