@@ -1,19 +1,21 @@
+% File cinf-mol2
 \name{write_mol2}
 \alias{write_mol2}
-\title{Saves Sybyl mol2-file}
+\title{Write Sybyl mol2-file}
 \description{
   Writes file in Sybyl mol2 format.
 }
 \usage{
-write_mol2(filename)
+write_mol2(mdb, fname)
 }
 \arguments{
-	\item{filename}{the name of the mol2 file to save}
+	\item{mdb}{molecular database (mdb)}
+	\item{fname}{the name of the mol2 file to be written to disk}
 }
-\value{Molecular database (mdb) list}
 \examples{
 ## Save mol2 file
+load("alkan.RData")
 \dontrun{
-write_mol2("fname.mol2")
+write_mol2(mdb, "fname.mol2")
 }
 }
