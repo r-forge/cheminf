@@ -7,9 +7,11 @@
 }
 \usage{
 mol_get_ct(mol)
+mol_get_ct(mol, 1)
 }
 \arguments{
 	\item{mol}{molecule}
+	\item{bond_orders}{whether to specify bond orders in connection table (1/0, default=0)}
 }
 \value{Connection table}
 \examples{
