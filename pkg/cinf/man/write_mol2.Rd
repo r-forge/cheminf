@@ -14,7 +14,7 @@ write_mol2(mdb, fname)
 }
 \examples{
 ## Save mol2 file
-load("alkan.RData")
+data("alkan")
 \dontrun{
 write_mol2(mdb, "fname.mol2")
 }
