@@ -13,7 +13,9 @@ mol_get_ct(mol)
 }
 \value{Connection table}
 \examples{
+\dontrun{
 load("alkan.RData")
 mol <- mdb[[1]]
 mol_get_ct(mol)
+}
 }

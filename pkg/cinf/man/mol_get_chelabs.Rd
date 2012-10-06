@@ -13,7 +13,9 @@ mol_get_chelabs(mol)
 }
 \value{Array of chemical element labels}
 \examples{
+\dontrun{
 load("alkan.RData")
 mol <- mdb[[1]]
 mol_get_chelabs(mol)
+}
 }
