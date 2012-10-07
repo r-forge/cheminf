@@ -14,7 +14,7 @@ substr_mask(mol, mask)
 }
 \value{Substructure}
 \examples{
-data("alkan")
-mol <- mdb[[2]]
+data("alkans74")
+mol <- alkans74.mdb[[2]]
 substr_mask(mol, c(1,1,0))
 }

@@ -13,6 +13,6 @@ get_prop_names(moldbase)
 }
 \value{Array of property names}
 \examples{
-data("alkan")
-get_prop_names(mdb)
+data("alkans74")
+get_prop_names(alkans74.mdb)
 }

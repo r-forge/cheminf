@@ -14,7 +14,7 @@ substruct(mol, oldnum)
 }
 \value{Substructure}
 \examples{
-data("alkan")
-mol <- mdb[[2]]
+data("alkans74")
+mol <- alkans74.mdb[[2]]
 substruct(mol, c(1,2))
 }

@@ -15,7 +15,7 @@ mol_get_ct(mol, 1)
 }
 \value{Connection table}
 \examples{
-data("alkan")
-mol <- mdb[[1]]
+data("alkans74")
+mol <- alkans74.mdb[[1]]
 mol_get_ct(mol)
 }

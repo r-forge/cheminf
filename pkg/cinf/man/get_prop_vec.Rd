@@ -14,6 +14,6 @@ get_prop_vec(moldbase, propname)
 }
 \value{Vector of property values}
 \examples{
-data("alkan")
-get_prop_vec(mdb, "bp")
+data("alkans74")
+get_prop_vec(alkans74.mdb, "bp")
 }

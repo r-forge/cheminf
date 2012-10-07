@@ -13,8 +13,8 @@ calc_distance_matrix(connTable)
 }
 \value{distance matrix}
 \examples{
-data("alkan")
-mol <- mdb[[5]]
+data("alkans74")
+mol <- alkans74.mdb[[5]]
 ct <- mol_get_ct(mol)
 calc_distance_matrix(ct)
 }

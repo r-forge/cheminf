@@ -14,6 +14,6 @@ get_prop(moldbase, propname)
 }
 \value{Data frame with property values}
 \examples{
-data("alkan")
-get_prop(mdb, "bp")
+data("alkans74")
+get_prop(alkans74.mdb, "bp")
 }

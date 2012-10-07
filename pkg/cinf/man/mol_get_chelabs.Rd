@@ -13,7 +13,7 @@ mol_get_chelabs(mol)
 }
 \value{Array of chemical element labels}
 \examples{
-data("alkan")
-mol <- mdb[[1]]
+data("alkans74")
+mol <- alkans74.mdb[[1]]
 mol_get_chelabs(mol)
 }
