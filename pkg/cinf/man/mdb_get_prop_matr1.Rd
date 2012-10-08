@@ -6,10 +6,10 @@
   Extracts property one-column matrix by name
 }
 \usage{
-mdb_get_prop_matr1(moldbase, propname)
+mdb_get_prop_matr1(mdb, propname)
 }
 \arguments{
-	\item{moldbase}{Molecular database}
+	\item{mdb}{Molecular database}
 	\item{propname}{Property name}
 }
 \value{One-column matrix of property values}

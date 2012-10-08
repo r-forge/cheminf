@@ -6,10 +6,10 @@
   Returns vector of property values for specified molecular database and property name
 }
 \usage{
-mdb_get_prop_vect(moldbase, propname)
+mdb_get_prop_vect(mdb, propname)
 }
 \arguments{
-	\item{moldbase}{Molecular database}
+	\item{mdb}{Molecular database}
 	\item{propname}{Property name}
 }
 \value{Vector of property values}

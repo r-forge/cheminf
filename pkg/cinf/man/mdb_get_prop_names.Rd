@@ -6,10 +6,10 @@
   Returns the list of property names from molecular database
 }
 \usage{
-mdb_get_prop_names(moldbase)
+mdb_get_prop_names(mdb)
 }
 \arguments{
-	\item{moldbase}{Molecular database}
+	\item{mdb}{Molecular database}
 }
 \value{Array of property names}
 \examples{

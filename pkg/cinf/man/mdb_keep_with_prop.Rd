@@ -15,5 +15,5 @@ mdb_keep_with_prop(mdb, prop_to_keep)
 \value{Molecular database}
 \examples{
 data("alkans74")
-mdb_keep_with_propp(alkans74.mdb, "mp")
+mdb_keep_with_prop(alkans74.mdb, "mp")
 }
