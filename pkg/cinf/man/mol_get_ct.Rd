@@ -6,8 +6,7 @@
   Returns connection table for a molecule.
 }
 \usage{
-mol_get_ct(mol)
-mol_get_ct(mol, 1)
+mol_get_ct(mol, bond_orders)
 }
 \arguments{
 	\item{mol}{molecule}

@@ -1,4 +1,4 @@
-% File cinf-mol
+% File cinf-mol.R
 \name{calc_distance_matrix}
 \alias{calc_distance_matrix}
 \title{Compute distance matrix from connection table}
@@ -9,7 +9,7 @@
 calc_distance_matrix(connTable)
 }
 \arguments{
-	\item{mol}{connection table}
+	\item{connTable}{connection table}
 }
 \value{distance matrix}
 \examples{

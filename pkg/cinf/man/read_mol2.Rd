@@ -6,10 +6,10 @@
   Reads file in Sybyl mol2 format.
 }
 \usage{
-read_mol2(fname)
+read_mol2(filename)
 }
 \arguments{
-	\item{fname}{the name of the mol2 file to be read}
+	\item{filename}{the name of the mol2 file to be read}
 }
 \value{Molecular database (mdb)}
 \examples{

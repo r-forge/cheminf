@@ -7,7 +7,6 @@
 }
 \usage{
 get_props(moldbase, propnames)
-get_props(moldbase)
 }
 \arguments{
 	\item{moldbase}{Molecular database}
