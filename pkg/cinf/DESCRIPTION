@@ -1,5 +1,5 @@
 Package: cinf
-Version: 0.0-10
+Version: 0.0-11
 Title: Basic tools for chemoinformatics
 Authors@R: c(person("Igor", "Baskin", role = c("aut", "cre"), 
                     email = "igbaskin@gmail.com"))
