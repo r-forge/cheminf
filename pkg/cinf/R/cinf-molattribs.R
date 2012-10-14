@@ -1,6 +1,6 @@
 # Computes additional molecular attributes for molecules
 
-add_mol_attribs <- function(moldbase, base=TRUE) {
+add_mol_attribs <- function(moldbase) {
 
   # Adds to atoms:
   #   vd_ - vertex degree
@@ -48,9 +48,6 @@ add_mol_attribs <- function(moldbase, base=TRUE) {
   }
 
   nmol <- length(moldbase)
-  moldbase1 <- moldbase
-  if (base) {
-    moldbase1 <- add_base_mol_attribs(moldbase1)
-  }
+  moldbase1 <- add_base_mol_attribs(moldbase)
   moldbase1
 }
