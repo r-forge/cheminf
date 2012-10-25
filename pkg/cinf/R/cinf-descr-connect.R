@@ -27,7 +27,7 @@ connect <- function(moldbase) {
 	for (iatom in 1:natoms) {
 	  el <- mol$atoms[[iatom]]$el
 	  nh <- mol$atoms[[iatom]]$nh
-	  delta_v[iatom] <- (PT.NumValEl[[el]] - nh) / (PT.NumEl[[el]] - PT.NumValEl[[el]] - 1)
+	  delta_v[iatom] <- (PT$NumValEl[[el]] - nh) / (PT$NumEl[[el]] - PT$NumValEl[[el]] - 1)
 	}
 	
     # Compute Chi0V
