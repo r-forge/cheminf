@@ -95,15 +95,15 @@ add_impl_hydr <- function(mol) {
   for (iatom in 1:natoms) {
     atom <- mol$atoms[[iatom]]
 	nh <- 0
-	if (val[iatom] <= PT.ComVal[[atom$el]]) {
+	if (val[iatom] <= PT$ComVal[[atom$el]]) {
 	  if (atom$ch <= 0) {
-	    nh <- PT.ComVal[[atom$el]] - val[iatom]
+	    nh <- PT$ComVal[[atom$el]] - val[iatom]
 	  } else {
-	    nh <- PT.MaxVal[[atom$el]] - val[iatom]
+	    nh <- PT$MaxVal[[atom$el]] - val[iatom]
 	  }
 	} else {
-	  if (val[iatom] <= PT.MaxVal[[atom$el]]) {
-	    nh <- (val[iatom] - PT.ComVal[[atom$el]]) %/% 2
+	  if (val[iatom] <= PT$MaxVal[[atom$el]]) {
+	    nh <- (val[iatom] - PT$ComVal[[atom$el]]) %/% 2
 	  } else {
 	    nh <- 0
 	  }
