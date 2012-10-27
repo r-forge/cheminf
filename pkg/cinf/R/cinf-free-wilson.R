@@ -339,7 +339,7 @@ inv_free_wilson <- function(t, model, y, ssize=1000) {
 #
 # Makes frequency table
 # t - initial table
-# sample - geenerated sample 
+# sample - generated sample 
 #
 make_freq_table <- function(t, sample) {
   fdt <- full_design(t)
